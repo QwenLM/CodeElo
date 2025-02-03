@@ -47,4 +47,15 @@ This repository is used to evaluate a model's competition-level code generation 
 
 ### API
 
-We have open-sourced all of the Elo calculation logic and ranking methods. The `BASE_URL` provided here points to our automated submission system. In order to prevent meaningless mass submissions and to comply with CodeForces policies, we require verified submissions. If you prefer not to use our automated system, you are free to implement your own submission mechanism by configuring the interfaces in api.py
+We have open-sourced all of the Elo calculation logic and ranking methods. The `BASE_URL` provided here points to our automated submission system. In order to prevent meaningless mass submissions and to comply with CodeForces policies, we require verified submissions. If you prefer not to use our automated system, you are free to implement your own submission mechanism by configuring the interfaces in `api.py`
+
+
+### Citation
+```
+@article{quan2025codeelo,
+  title={CodeElo: Benchmarking Competition-level Code Generation of LLMs with Human-comparable Elo Ratings},
+  author={Quan, Shanghaoran and Yang, Jiaxi and Yu, Bowen and Zheng, Bo and Liu, Dayiheng and Yang, An and Ren, Xuancheng and Gao, Bofei and Miao, Yibo and Feng, Yunlong and others},
+  journal={arXiv preprint arXiv:2501.01257},
+  year={2025}
+}
+```

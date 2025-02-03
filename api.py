@@ -6,9 +6,9 @@ TOKEN = os.getenv("TOKEN") # Replace with your own token
 BASE_URL = os.getenv("BASE_URL")
 
 if not TOKEN:
-    raise ValueError("缺少必需的环境变量：TOKEN")
+    raise ValueError("Missing required environment variable: TOKEN")
 if not BASE_URL:
-    raise ValueError("缺少必需的环境变量：BASE_URL")
+    raise ValueError("Missing required environment variable: BASE_URL")
 
 RETRY = 3
 DELAY = 10

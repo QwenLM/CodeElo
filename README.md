@@ -17,7 +17,8 @@ This repository is used to evaluate a model's competition-level code generation 
 
 
 > [!IMPORTANT]
-> Due to ethical considerations, you need to agree to the AGREEMENT to obtain a token and server ip to use the repository. Please fill in the blanks and email the letter to `binyuan.hby@alibaba-inc.com`, and we will review it and respond as soon as possible.
+> We have open-sourced all of the Elo calculation logic and ranking methods. The `BASE_URL` provided here points to our automated submission system. In order to prevent meaningless mass submissions and to comply with CodeForces policies, we require verified submissions. Due to ethical considerations, you need to agree to the AGREEMENT to obtain a `TOKEN` and `BASE_URL` to use the repository. Please fill in the blanks and email the letter to `binyuan.hby@alibaba-inc.com`, and we will review it and respond as soon as possible. If you prefer not to use our automated system, you are free to implement your own submission mechanism by configuring the interfaces in `api.py`.
+
 
 ### Quick Start
 
@@ -45,9 +46,6 @@ This repository is used to evaluate a model's competition-level code generation 
 
     This command will test all eligible contests with IDs ranging from 2000 to 2030.
 
-### API
-
-We have open-sourced all of the Elo calculation logic and ranking methods. The `BASE_URL` provided here points to our automated submission system. In order to prevent meaningless mass submissions and to comply with CodeForces policies, we require verified submissions. If you prefer not to use our automated system, you are free to implement your own submission mechanism by configuring the interfaces in `api.py`
 
 
 ### Citation
